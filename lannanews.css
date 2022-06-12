@@ -1,0 +1,147 @@
+body {
+  font-family: sans-serif;
+  font: "arial";
+  margin: 0px;
+  height: 200%;
+
+  display: block;
+  overflow-y: auto;
+  overflow-x: scroll;
+
+}
+#logo {
+  position: relative;
+
+  float: right;
+  height: 150px;
+  width: 150px;
+}
+.titlebar {
+  height: 150px;
+  width: 100%;
+  z-index: 10;
+  background-color: #13451a;
+  position: fixed;
+}
+.titlebartext {
+  display: block;
+  margin-left: 50px;
+  float: left;
+  font-size: 8vw;
+
+  line-height: 150px;
+  text-align: center;
+  color: white;
+}
+.footer {
+
+  width: 100%;
+
+  position: fixed;
+  height: 35px;
+  background-color: white;
+  bottom: 0px;
+
+}
+@media only screen and (max-height: 300px) {
+  .titlebar {
+    display: none;}
+  .footer {
+      display: none;
+  }
+}
+
+.container {
+  padding: 20px;
+  top: 150px;
+  left: 0px;
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 0;
+
+}
+#videosect {
+
+  height: 440px;
+  position: relative;
+
+
+  margin: 0;
+
+}
+p {
+  text-indent: 5px;
+  font-size: 24px;
+}
+#textbarleft {
+
+  float: left;
+
+
+  padding: 15px;
+  width: 40%;
+  margin: 0;
+
+}
+#textbarright {
+  float: left;
+  padding: 15px;
+  width: 40%;
+  margin: 0;
+
+}
+
+#textbottom {
+
+
+    position: relative;
+
+
+    padding: 15px;
+
+
+}
+
+#backgroundbar {
+  position: relative;
+  height: 120px;
+  padding-top: 5px;
+
+  background-color: #a12d2d;
+}
+video {
+  height: 100%;
+  width: 100%;
+
+}
+
+#iframeheader3 {
+  color: white;
+  height: 50%;
+  margin: auto;
+
+  text-align: center;
+
+}
+#iframeheader4 {
+  color: white;
+  margin: auto;
+
+  height: 50%;
+  text-align: center;
+  margin: auto;
+
+}
+#iframevideo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 25%;
+
+  margin: 0px;
+
+
+
+}
